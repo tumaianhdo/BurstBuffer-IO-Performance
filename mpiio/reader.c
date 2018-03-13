@@ -6,7 +6,7 @@
 #include "utils.h"
 #include "debug.h"
 
-extern int mpi_write(int rank, const char *filename, int dims, uint64_t* spdim, size_t elem_size, MPI_Comm gcomm);
+extern int mpi_read(int rank, const char *filename, int dims, uint64_t* spdim, size_t elem_size, MPI_Comm gcomm);
 
 int main (int argc, char **argv) {
 	int dims; // number of dimensions
@@ -30,14 +30,10 @@ int main (int argc, char **argv) {
 	MPI_Comm_size(MPI_COMM_WORLD, &nprocs);
 	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-	int color = 1;
+	int color = 2;
 	MPI_Comm_split(MPI_COMM_WORLD, color, rank, &gcomm);
 
-	// printf("FileName : %s\n", filename);
-
-	mpi_write(rank, filename, dims, sp, elem_size, gcomm);
-
-	// MPI_Barrier(gcomm);
+	mpi_read(rank, filename, dims, sp, elem_size, gcomm);
 
 	MPI_Finalize();
 	return 0;

@@ -5,6 +5,8 @@ double* allocate_block(int dims, uint64_t* spdim, size_t elem_size);
 
 void set_offset(uint64_t *offset, int rank, int dims, int* npdim, uint64_t* spdim);
 
+int block_size(int dims, uint64_t *spdim, size_t elem_size);
+
 int generate_block(double *mnd, int rank, int dims, uint64_t* spdim, size_t elem_size);
 
 #endif

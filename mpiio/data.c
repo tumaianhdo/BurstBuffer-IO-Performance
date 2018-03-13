@@ -29,13 +29,20 @@ void set_offset(uint64_t *offset, int rank, int dims, int* npdim, uint64_t* spdi
         }
 }
 
+int block_size(int dims, uint64_t *spdim, size_t elem_size) {
+        uint64_t size = 1;
+        int i;
+        for (i = 0; i < dims; i++) {
+                size *= spdim[i];
+        }
+        return size * elem_size;
+} 
+
 int generate_block(double *mnd, int rank, int dims, uint64_t* spdim, size_t elem_size) {
         int i;
         double value = (double) rank;
-        uint64_t mnd_size = 1;
-        for(i = 0; i < dims; i++)
-                mnd_size *= spdim[i];
-        mnd_size = mnd_size * elem_size / sizeof(double); 
+        uint64_t mnd_size;
+        mnd_size = block_size(dims, spdim, elem_size) / sizeof(double); 
         for(i = 0; i < mnd_size; i++)
                 *(mnd+i) = value;
         return mnd_size;
