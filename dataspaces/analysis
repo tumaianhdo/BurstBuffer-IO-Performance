@@ -1,0 +1,685 @@
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.616819
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.812992
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.847776
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.852054
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.822756
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.780616
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.839587
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.889962
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.824054
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.884863
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.547453
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.676615
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.571929
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.588423
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.580438
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.679110
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.658942
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.669732
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.915290
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.623687
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[542-543]   00:01:37                 128 
+     batch        nid00542   00:01:37        1         64 
+    extern  nid00[542-543]   00:01:39        2        128 
+dataspace+        nid00542   00:01:24        2          4 
+    reader        nid00542   00:01:14        4          8 
+    writer        nid00543   00:01:10       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.626308
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.779049
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.876947
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.859491
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.874560
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.828432
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.811502
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.880315
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.855931
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.826742
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.520342
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.597717
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.647554
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.576043
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.567089
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.483744
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.618905
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.664323
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.424791
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.606824
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[459,461]   00:01:43                 128 
+     batch        nid00459   00:01:43        1         64 
+    extern  nid00[459,461]   00:01:54        2        128 
+dataspace+        nid00459   00:01:25        2          4 
+    reader        nid00459   00:01:17        4          8 
+    writer        nid00461   00:01:15       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.674884
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.814324
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.916602
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.933871
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.943881
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.995127
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.974584
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.935079
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.919372
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.995177
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.595537
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.621133
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.609945
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.645799
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.568584
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.778517
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.695023
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.658980
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.941203
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.626506
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[535-536]   00:01:43                 128 
+     batch        nid00535   00:01:43        1         64 
+    extern  nid00[535-536]   00:02:09        2        128 
+dataspace+        nid00535   00:01:29        2          4 
+    reader        nid00535   00:01:22        4          8 
+    writer        nid00536   00:01:12       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.629693
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.860315
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.881532
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.906716
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.943707
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.930595
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.928647
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.922173
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.929760
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.876393
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.801860
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.562988
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 5.009841
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.696027
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.644035
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.851606
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.654907
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.650921
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.770356
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.726205
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[476,482]   00:01:34                 128 
+     batch        nid00476   00:01:34        1         64 
+    extern  nid00[476,482]   00:01:53        2        128 
+dataspace+        nid00476   00:01:28        2          4 
+    reader        nid00476   00:01:16        4          8 
+    writer        nid00482   00:01:11       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.649651
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.541915
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[476-477]   00:00:33                 128 
+     batch        nid00476   00:00:33        1         64 
+    extern  nid00[476-477]   00:00:33        2        128 
+dataspace+        nid00476   00:00:25        2          4 
+    writer        nid00477   00:00:14       32         64 
+    reader        nid00476   00:00:17        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.621979
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.589785
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[474-475]   00:00:32                 128 
+     batch        nid00474   00:00:32        1         64 
+    extern  nid00[474-475]   00:00:34        2        128 
+dataspace+        nid00474   00:00:28        2          4 
+    reader        nid00474   00:00:20        4          8 
+    writer        nid00475   00:00:14       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.639700
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.594780
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[443-444]   00:00:34                 128 
+     batch        nid00443   00:00:34        1         64 
+    extern  nid00[443-444]   00:00:41        2        128 
+dataspace+        nid00443   00:00:25        2          4 
+    reader        nid00443   00:00:18        4          8 
+    writer        nid00444   00:00:13       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.604765
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.743627
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.780874
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.811205
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.830101
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.801767
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.828642
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.852798
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.859290
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.803291
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.651915
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.565262
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.575799
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.539077
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.716790
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.590614
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.559985
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.652957
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.685987
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.470334
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[443-444]   00:02:27                 128 
+     batch        nid00443   00:02:27        1         64 
+    extern  nid00[443-444]   00:02:40        2        128 
+dataspace+        nid00443   00:02:22        2          4 
+    reader        nid00443   00:02:15        4          8 
+    writer        nid00444   00:01:12       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=3.0
+#ReaderFrequency=.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.618664
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.791574
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.774175
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.835504
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.768902
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.789700
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.734676
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.760092
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.772359
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.771274
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 0.003876
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000131
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000116
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000086
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000128
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 0.004596
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000104
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000087
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 0.002784
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000141
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[477-478]   00:01:29                 128 
+     batch        nid00477   00:01:29        1         64 
+    extern  nid00[477-478]   00:01:30        2        128 
+dataspace+        nid00477   00:01:15        2          4 
+    reader        nid00477   00:00:32        4          8 
+    writer        nid00478   00:01:01       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=3.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.691567
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.712846
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.845734
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.849184
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.870579
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.772076
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.856565
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.878118
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.887133
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.791827
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 0.006563
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000100
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000088
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000110
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000127
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000167
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000145
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000160
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 0.000172
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.639841
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[479-480]   00:01:08                 128 
+     batch        nid00479   00:01:08        1         64 
+    extern  nid00[479-480]   00:01:09        2        128 
+dataspace+        nid00479   00:00:56        2          4 
+    writer        nid00480   00:00:29       32         64 
+    reader        nid00479   00:00:50        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=2.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.609635
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.819930
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.898017
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.857909
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.848823
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.817392
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.882582
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.847984
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.891554
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.867377
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.745442
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.751587
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.636864
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.631721
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.550153
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.508899
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.661505
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.578069
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.595659
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.685124
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[477-478]   00:02:06                 128 
+     batch        nid00477   00:02:06        1         64 
+    extern  nid00[477-478]   00:02:06        2        128 
+dataspace+        nid00477   00:01:48        2          4 
+    reader        nid00477   00:01:30        4          8 
+    writer        nid00478   00:01:30       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=3.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.630860
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.733883
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.747220
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.796043
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.884163
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.860160
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.827734
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.761385
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.856512
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.836105
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.531060
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.643171
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.611165
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.585148
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.627466
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.546044
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.484356
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.634708
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.644512
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.782980
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[489-490]   00:01:54                 128 
+     batch        nid00489   00:01:54        1         64 
+    extern  nid00[489-490]   00:02:45        2        128 
+dataspace+        nid00489   00:01:35        2          4 
+    writer        nid00490   00:01:32       32         64 
+    reader        nid00489   00:01:31        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=2.0
+#ReaderFrequency=3.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.604081
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.739746
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.866360
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.860507
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.918849
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.857921
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.848437
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.884105
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.892589
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.832858
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.566098
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.629884
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.714264
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.682536
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.758250
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.735874
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.705019
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.612532
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.729187
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.608123
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[477-478]   00:02:25                 128 
+     batch        nid00477   00:02:25        1         64 
+    extern  nid00[477-478]   00:02:26        2        128 
+dataspace+        nid00477   00:01:53        2          4 
+    writer        nid00478   00:01:44       32         64 
+    reader        nid00477   00:01:39        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.620822
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.842281
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[443-444]   00:00:25                 128 
+     batch        nid00443   00:00:25        1         64 
+    extern  nid00[443-444]   00:00:26        2        128 
+dataspace+        nid00443   00:00:22        2          4 
+    writer        nid00444   00:00:12       32         64 
+    reader        nid00443   00:00:15        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=1.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.588601
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.576217
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[443-444]   00:00:23                 128 
+     batch        nid00443   00:00:23        1         64 
+    extern  nid00[443-444]   00:00:26        2        128 
+dataspace+        nid00443   00:00:20        2          4 
+    writer        nid00444   00:00:12       32         64 
+    reader        nid00443   00:00:15        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=2.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.594742
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.697256
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[445-446]   00:00:29                 128 
+     batch        nid00445   00:00:29        1         64 
+    extern  nid00[445-446]   00:00:29        2        128 
+dataspace+        nid00445   00:00:23        2          4 
+    writer        nid00446   00:00:10       32         64 
+    reader        nid00445   00:00:15        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=2.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.630382
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.645989
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[443-444]   00:00:27                 128 
+     batch        nid00443   00:00:27        1         64 
+    extern  nid00[443-444]   00:00:28        2        128 
+dataspace+        nid00443   00:00:25        2          4 
+    reader        nid00443   00:00:15        4          8 
+    writer        nid00444   00:00:12       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.594411
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.701613
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[465-466]   00:00:31                 128 
+     batch        nid00465   00:00:31        1         64 
+    extern  nid00[465-466]   00:00:31        2        128 
+dataspace+        nid00465   00:00:25        2          4 
+    reader        nid00465   00:00:15        4          8 
+    writer        nid00466   00:00:13       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=1.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.569362
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.809944
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[463,465]   00:00:31                 128 
+     batch        nid00463   00:00:31        1         64 
+    extern  nid00[463,465]   00:00:31        2        128 
+dataspace+        nid00463   00:00:27        2          4 
+    writer        nid00465   00:00:14       32         64 
+    reader        nid00463   00:00:15        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=1.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.610866
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.618417
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[468-469]   00:00:37                 128 
+     batch        nid00468   00:00:37        1         64 
+    extern  nid00[468-469]   00:01:15        2        128 
+dataspace+        nid00468   00:00:24        2          4 
+    writer        nid00469   00:00:13       32         64 
+    reader        nid00468   00:00:18        4          8 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=1
+#WriterFrequency=0.0
+#ReaderFrequency=2.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.597738
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.891224
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[444,463]   00:00:29                 128 
+     batch        nid00444   00:00:29        1         64 
+    extern  nid00[444,463]   00:00:30        2        128 
+dataspace+        nid00444   00:00:26        2          4 
+    reader        nid00444   00:00:18        4          8 
+    writer        nid00463   00:00:11       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=10
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=2
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.607621
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.774477
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.857262
+TS= 4 TRANSPORT_TYPE= DATASPACES write MAX time= 1.910749
+TS= 5 TRANSPORT_TYPE= DATASPACES write MAX time= 1.914008
+TS= 6 TRANSPORT_TYPE= DATASPACES write MAX time= 1.883586
+TS= 7 TRANSPORT_TYPE= DATASPACES write MAX time= 1.911151
+TS= 8 TRANSPORT_TYPE= DATASPACES write MAX time= 1.915114
+TS= 9 TRANSPORT_TYPE= DATASPACES write MAX time= 1.824492
+TS= 10 TRANSPORT_TYPE= DATASPACES write MAX time= 1.923554
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.828785
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.761830
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.809512
+TS= 4 TRANSPORT_TYPE= DATASPACES read MAX time= 4.754487
+TS= 5 TRANSPORT_TYPE= DATASPACES read MAX time= 4.832397
+TS= 6 TRANSPORT_TYPE= DATASPACES read MAX time= 4.822140
+TS= 7 TRANSPORT_TYPE= DATASPACES read MAX time= 4.839099
+TS= 8 TRANSPORT_TYPE= DATASPACES read MAX time= 4.773710
+TS= 9 TRANSPORT_TYPE= DATASPACES read MAX time= 4.786511
+TS= 10 TRANSPORT_TYPE= DATASPACES read MAX time= 4.995826
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[444,463]   00:01:24                 128 
+     batch        nid00444   00:01:24        1         64 
+    extern  nid00[444,463]   00:01:27        2        128 
+dataspace+        nid00444   00:01:21        2          4 
+    reader        nid00444   00:01:17        4          8 
+    writer        nid00463   00:01:11       32         64 
+-----------------------------------------------
+#Servers=2
+#Producer=32
+#Consumers=4
+#TimeStep=3
+#WriterFrequency=0.0
+#ReaderFrequency=0.0
+#LockType=1
+dims = 1024,1024,1024
+ 
+TS= 1 TRANSPORT_TYPE= DATASPACES write MAX time= 1.550162
+TS= 2 TRANSPORT_TYPE= DATASPACES write MAX time= 1.539668
+TS= 3 TRANSPORT_TYPE= DATASPACES write MAX time= 1.549738
+TS= 1 TRANSPORT_TYPE= DATASPACES read MAX time= 4.990816
+TS= 2 TRANSPORT_TYPE= DATASPACES read MAX time= 4.530080
+TS= 3 TRANSPORT_TYPE= DATASPACES read MAX time= 4.616596
+ 
+   JobName        NodeList    Elapsed   NTasks  AllocCPUS 
+---------- --------------- ---------- -------- ---------- 
+dataspaces  nid00[443-444]   00:01:35                 128 
+     batch        nid00443   00:01:35        1         64 
+    extern  nid00[443-444]   00:01:49        2        128 
+dataspace+        nid00443   00:01:32        2          4 
+    writer        nid00444   00:00:13       32         64 
+    reader        nid00443   00:01:27        4          8 
+-----------------------------------------------
